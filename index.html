@@ -1,0 +1,35 @@
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="soundcloud.css">
+	<title>SoundCloud</title>
+</head>
+<body>
+	<h1>SoundCloud API</h1>
+	<img id="imagesoundcloud" src="mediabuttons/soundcloud.jpg">
+	<form id="playerform">
+		<p>Search Tracks:</p><input class="inputbox" placeholder="Search for tracks" id="input" type="text"/> 
+		<div class='submitbtn'><input type='submit' value="Search"> </div>
+
+	</form>
+
+	<br>
+	<div id="title"></div>
+
+
+	<div id="artwork"></div>
+
+
+	<div class="buttons">
+		<button id="playbtn" type="button" class="button">Play</button>
+		<button id="pausebtn" type="button" class="button">Pause</button>
+		<button id="stopbtn" type="button" class="button">Stop</button>
+		<button id="nextbtn" type="button" class="button">Next</button>
+		<button id="previousbtn" type="button" class="button">Previous</button>
+
+
+	<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+	<script src="soundcloud.js"></script>
+</body>
+</html>
+</html>

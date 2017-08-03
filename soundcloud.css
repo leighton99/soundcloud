@@ -1,0 +1,92 @@
+body {
+	
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 250px;
+  background: linear-gradient(to bottom, #34b1c1 0%,#34b1c1 50%,#000000 50%,#3f1275 50%,#3f1275 100%);
+
+}
+
+
+h1{
+  text-align: center;
+  color: #3f1275;
+}
+
+#imagesoundcloud{
+ height: 150px;
+ width: 150px
+}
+
+/*#play{
+	text-align: center;
+	cursor: pointer;
+  background-image: url("Mediabuttons/play-button.png");
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: none;
+}
+
+#stop{
+  text-align: center;
+  cursor: pointer;
+  background-image: url("Mediabuttons/stop.png");
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: none;
+}
+
+#next{
+  text-align: center;
+  cursor: pointer;
+  background-image: url("Mediabuttons/next.png");
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: none;
+}
+
+
+#previous{
+  text-align: center;
+  cursor: pointer;
+  background-image: url("Mediabuttons/previous.png");
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: none;
+}
+
+#pause{
+  text-align: center;
+  cursor: pointer;
+  background-image: url("Mediabuttons/pause.png");
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: none;
+}
+}
+*/
+
+
+@media only screen and (max-width: 500px) {
+    body {
+    background-color: #add8e6;
+    }
+}
+
+
+
+#artwork{
+  text-align: center;
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+
+
+
